@@ -1,10 +1,11 @@
-body{
-    background-color: #1A1915;
-}
-
 @font-face {
     font-family: Tw Cen MT;
     src: url(fonts/TCM.ttf);
+}
+
+body{
+    background-color: #1A1915;
+    font-family: Tw Cen MT, 'Hind Madurai', sans-serif;
 }
   
 hr{
@@ -16,21 +17,18 @@ hr{
   }
 
 h1{
-    font-family: Tw Cen MT;
     font-size: 4.5rem;
     color: white;
     margin: 5%;
 }
 
 h3{
-    font-family: Tw Cen MT;
     color: white;
     margin: 5%;
     opacity: 90%;
 }
 
 h4{
-    font-family: Tw Cen MT;
     color: white;
     margin: 2%;
     opacity: 90%;
@@ -38,7 +36,6 @@ h4{
 }
 
 p{
-    font-family: Tw Cen MT;
     margin: 5%;
     font-size: x-large;
     color: white;
@@ -134,7 +131,6 @@ p{
   }
 
 .dlbtn{
-    font-family: Tw Cen MT;
     margin: 5% 3%;
 }
 .dlbtn:hover{
@@ -201,7 +197,6 @@ ul{
 }
 
 .links-list{
-    font-family: Tw Cen MT;
     padding-left: 0px;
     margin: 5%;
     font-size: larger;
@@ -265,7 +260,6 @@ ul{
 
 
 .dlbtn1{
-    font-family: Tw Cen MT;
     width: 200px;
 }
 

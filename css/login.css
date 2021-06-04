@@ -6,7 +6,6 @@
 }
 }
 .loginbox{
-    font-family: Tw Cen MT;
     margin: auto 28%;
 }
 
@@ -63,7 +62,6 @@ input:hover,
 }
 
 .logbtn{
-    font-family: Tw Cen MT;
     margin: 0 auto 4%;
 }
 .logbtn:hover{
@@ -168,14 +166,12 @@ input:hover,
 }
 
 .para-sign{
-  font-family: Tw Cen MT;
   font-size: x-large;
   color: white;
   opacity: 70%;
 }
 
 .registerbtn {
-  font-family: Tw Cen MT;
   background-color: #E9D079;
   padding: 16px 20px;
   margin: 0 auto 4%;
