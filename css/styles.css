@@ -1,0 +1,271 @@
+body{
+    background-color: #1A1915;
+}
+
+@font-face {
+    font-family: Tw Cen MT;
+    src: url(fonts/TCM.ttf);
+}
+  
+hr{
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 3px;
+    width: 100%;
+  }
+
+h1{
+    font-family: Tw Cen MT;
+    font-size: 4.5rem;
+    color: white;
+    margin: 5%;
+}
+
+h3{
+    font-family: Tw Cen MT;
+    color: white;
+    margin: 5%;
+    opacity: 90%;
+}
+
+h4{
+    font-family: Tw Cen MT;
+    color: white;
+    margin: 2%;
+    opacity: 90%;
+    text-align: center;
+}
+
+p{
+    font-family: Tw Cen MT;
+    margin: 5%;
+    font-size: x-large;
+    color: white;
+    opacity: 70%;
+}
+
+
+.navbar{
+    color: white;
+    margin: 15px;
+}
+
+.nav-link:hover {
+    color: #E9D079 ;
+}
+
+/***** Navbar *****/
+
+.nav-item {
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.logo{
+    margin-left: 10%;
+    height: 50px;
+}
+
+.nanavbar-brand{
+    max-width: 90%;
+    height: auto;
+}  
+
+.navbar-collapse{
+    padding-left: 10%;
+} 
+
+.dropdown-menu{
+    background-color: #33322f;
+    opacity: 80%;
+}
+
+.idow{
+    margin: auto 5%;
+}
+
+.container{
+    margin: 10px;
+}
+
+
+
+/*****Top container*****/
+
+.top{
+    margin: 5% 15% auto 15%;
+}
+
+.welcome{
+    margin: 5% auto;
+}
+
+.homesnap{
+    width: 65%;
+    position: relative;
+    left: 18%;
+}
+
+/*****features*****/
+
+#features{
+    padding: 1% 8%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transition: width 2s;
+}
+
+.fcontent{
+    margin: 3% auto;
+}
+
+.ficons{
+    width: 80px;
+    transition: width .3s, height .3s;
+}
+
+.ficons:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(360deg);
+  }
+
+.dlbtn{
+    font-family: Tw Cen MT;
+    margin: 5% 3%;
+}
+.dlbtn:hover{
+    background-color: #E9D079;
+}
+
+/*****connect*****/
+
+.connect{
+    margin: 5% 15% auto 15%;
+}
+
+.connect-text{
+    margin: 8% auto;
+}
+ul{
+    list-style-type:none;
+    list-style: none;
+    margin-left: 0;
+}
+
+
+/*****Footer*****/
+
+.bottom{
+    margin: 3% 15%;
+}
+
+.logo-down{
+    margin: 3% auto;
+}
+
+.footer-link1{
+    color:  white;
+    opacity: 75%;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+
+.footer-link1:hover{
+    color: #E9D079;
+    opacity: 100%;
+}
+
+.footer-link{
+    color:  white;
+    opacity: 75%;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #E9D079;
+    opacity: 100%;
+}
+
+.font3{
+    font-size: small;
+    margin: 5% auto 0px auto;
+}
+
+.isoc{
+    margin-bottom: 1rem;
+}
+
+.links-list{
+    font-family: Tw Cen MT;
+    padding-left: 0px;
+    margin: 5%;
+    font-size: larger;
+    color: white;
+    opacity: 60%;
+}
+
+
+
+/******************   Download page   ******************/
+
+.top-dwl{
+    margin: 5% 10% auto 10%;
+    text-align: center;
+}
+
+.multi-mock{
+    width: 100%;
+    position: relative;    
+    margin: 10% 2%;
+}
+
+.dwl-sec{
+    margin: 5% 5%;
+    padding: .1% 7%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.dwl-cnt{
+    margin: 5% 10%;
+}
+
+.headingline{
+    margin-bottom : 5%;
+    height: 2px;
+    background-color: white;
+    width : 25%;
+    opacity: 100%;
+}
+
+.headingline1{
+    margin-bottom : 5%;
+    height: 2px;
+    background-color: white;
+    width : 8%;
+    opacity: 100%;
+}
+
+.topic-icon{
+    margin: 0px;
+    color: white;
+}
+
+.topic-icon:hover{
+    color: #E9D079;
+    opacity: 100%;
+}
+
+
+
+.dlbtn1{
+    font-family: Tw Cen MT;
+    width: 200px;
+}
+
